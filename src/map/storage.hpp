@@ -90,7 +90,6 @@ void storage_premiumStorage_save(struct map_session_data *sd);
 void storage_premiumStorage_close(struct map_session_data *sd);
 void storage_premiumStorage_quit(struct map_session_data *sd);
 
-int storage_additem2(struct map_session_data *sd, struct item* item_data, int amount);
-int compare_item(struct item *a, struct item *b, short flag);
+int compare_item(struct item *a, struct item *b);
 
 #endif /* STORAGE_HPP */

@@ -9,6 +9,3 @@
  **/
 
 //ACMD_DEF(newcommand),
-ACMD_DEF(battleinfo),
-// Mario Kart
-ACMD_DEF(dance),
